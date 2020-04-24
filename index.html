@@ -7,14 +7,40 @@ body {
   margin: 10;
   font-family: Helvetica, Arial, sans-serif;
 }
+
+div {
+  display:-webkit-box;
+    display:-webkit-flex;
+    display:-ms-flexbox;
+    display:flex;
+    -webkit-flex-wrap:wrap;
+    -ms-flex-wrap:wrap;
+    flex-wrap:wrap;
+-webkit-box-pack:center;
+    -webkit-justify-content:center;
+    -ms-flex-pack:center;
+    justify-content:center;
+    -webkit-box-align:center;
+    -webkit-align-items:center;
+    -ms-flex-align:center;
+    align-items:center;
+-webkit-box-orient:vertical;
+    -webkit-box-direction:normal;
+    -webkit-flex-direction:column;
+    -ms-flex-direction:column;
+    flex-direction:column;
+}
+
 </style>
 <body>
-  <div style="display:flex;justify-content:center;align-items:center;">
-    <h1>branchinstitute</h1>
 
-    <h2>tournoment information</h2>
+  <div style="display:flex;flex-direction: column;justify-content:center;align-items:center;">
+    <h1>Branch Institute</h1>
+
+    <h2><a href="https://branchinstitute.tk/tournament">Tournament (May 9-10, 2020)</a></h2>
 
     <p>(c) 2020 Kunal Botla. All Rights Reserved.</p>
+    <p>branchinstitute.tk</p>
   </div>
 
 </body>
